@@ -1,0 +1,7 @@
+zuul.ignored-services: "*"
+zuul.prefix: /api
+zuul.routes.organizationservice: /organization/**
+zuul.routes.licensingservice: /licensing/**
+zuul.routes.authenticationservice: /auth/**
+zuul.sensitiveHeaders: Authorization
+zuul.debug.request: true
